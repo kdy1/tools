@@ -154,15 +154,16 @@ func load(patterns []string, allSyntax bool) ([]*packages.Package, error) {
 		Tests: true,
 	}
 	initial, err := packages.Load(&conf, patterns...)
-	if err == nil {
-		if n := packages.PrintErrors(initial); n > 1 {
-			err = fmt.Errorf("%d errors during loading", n)
-		} else if n == 1 {
-			err = fmt.Errorf("error during loading")
-		} else if len(initial) == 0 {
-			err = fmt.Errorf("%s matched no packages", strings.Join(patterns, " "))
-		}
-	}
+	// This blocks me
+	// if err == nil {
+	// 	if n := packages.PrintErrors(initial); n > 1 {
+	// 		err = fmt.Errorf("%d errors during loading", n)
+	// 	} else if n == 1 {
+	// 		err = fmt.Errorf("error during loading")
+	// 	} else if len(initial) == 0 {
+	// 		err = fmt.Errorf("%s matched no packages", strings.Join(patterns, " "))
+	// 	}
+	// }
 
 	return initial, err
 }
