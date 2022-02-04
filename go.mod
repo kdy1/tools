@@ -1,4 +1,4 @@
-module golang.org/x/tools
+module github.com/kdy1/tools
 
 go 1.17
 
