@@ -14,9 +14,9 @@ import (
 	"os"
 	"strings"
 
-	"golang.org/x/tools/internal/lsp/browser"
-	"golang.org/x/tools/internal/lsp/debug"
-	"golang.org/x/tools/internal/lsp/source"
+	"github.com/kdy1/tools/internal/lsp/browser"
+	"github.com/kdy1/tools/internal/lsp/debug"
+	"github.com/kdy1/tools/internal/lsp/source"
 )
 
 // version implements the version command.

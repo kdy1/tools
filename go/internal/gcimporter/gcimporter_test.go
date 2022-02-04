@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/internal/testenv"
+	"github.com/kdy1/tools/internal/testenv"
 )
 
 func TestMain(m *testing.M) {

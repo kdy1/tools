@@ -7,9 +7,9 @@ package assign_test
 import (
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/go/analysis/passes/assign"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/kdy1/tools/go/analysis/analysistest"
+	"github.com/kdy1/tools/go/analysis/passes/assign"
+	"github.com/kdy1/tools/internal/typeparams"
 )
 
 func Test(t *testing.T) {

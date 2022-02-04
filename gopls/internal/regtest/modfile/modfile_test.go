@@ -10,12 +10,12 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/hooks"
-	. "golang.org/x/tools/internal/lsp/regtest"
+	"github.com/kdy1/tools/gopls/internal/hooks"
+	. "github.com/kdy1/tools/internal/lsp/regtest"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/tests"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/kdy1/tools/internal/lsp/protocol"
+	"github.com/kdy1/tools/internal/lsp/tests"
+	"github.com/kdy1/tools/internal/testenv"
 )
 
 func TestMain(m *testing.M) {

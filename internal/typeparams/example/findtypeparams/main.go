@@ -115,7 +115,7 @@ func PrintTypeParams(fset *token.FileSet, file *ast.File) error {
 
 /*
 //!+output
-> go run golang.org/x/tools/internal/typeparams/example/findtypeparams
+> go run github.com/kdy1/tools/internal/typeparams/example/findtypeparams
 Constraint does not have a type parameter list
 Constraint has 0 type parameters:
 Constraint does not have a scope

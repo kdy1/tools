@@ -8,13 +8,14 @@ import (
 	"bytes"
 	"fmt"
 	"go/types"
-	exec "golang.org/x/sys/execabs"
 	"log"
 	"os"
 	"runtime"
 	"time"
 
-	"golang.org/x/tools/container/intsets"
+	exec "golang.org/x/sys/execabs"
+
+	"github.com/kdy1/tools/container/intsets"
 )
 
 // CanPoint reports whether the type T is pointerlike,

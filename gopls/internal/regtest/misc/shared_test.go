@@ -7,7 +7,7 @@ package misc
 import (
 	"testing"
 
-	. "golang.org/x/tools/internal/lsp/regtest"
+	. "github.com/kdy1/tools/internal/lsp/regtest"
 )
 
 const sharedProgram = `

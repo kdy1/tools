@@ -11,9 +11,9 @@ import (
 	"go/types"
 	"strings"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/ast/inspector"
+	"github.com/kdy1/tools/go/analysis"
+	"github.com/kdy1/tools/go/analysis/passes/inspect"
+	"github.com/kdy1/tools/go/ast/inspector"
 )
 
 const Doc = `check signature of methods of well-known interfaces

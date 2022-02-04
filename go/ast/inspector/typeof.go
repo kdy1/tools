@@ -12,7 +12,7 @@ package inspector
 import (
 	"go/ast"
 
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/kdy1/tools/internal/typeparams"
 )
 
 const (

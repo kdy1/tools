@@ -7,10 +7,10 @@ package infertypeargs_test
 import (
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/internal/lsp/analysis/infertypeargs"
-	"golang.org/x/tools/internal/testenv"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/kdy1/tools/go/analysis/analysistest"
+	"github.com/kdy1/tools/internal/lsp/analysis/infertypeargs"
+	"github.com/kdy1/tools/internal/testenv"
+	"github.com/kdy1/tools/internal/typeparams"
 )
 
 func Test(t *testing.T) {

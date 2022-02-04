@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/go/ast/inspector"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/ssautil"
-	"golang.org/x/tools/internal/testenv"
-	"golang.org/x/tools/internal/typeparams/genericfeatures"
+	"github.com/kdy1/tools/go/ast/inspector"
+	"github.com/kdy1/tools/go/packages"
+	"github.com/kdy1/tools/go/ssa"
+	"github.com/kdy1/tools/go/ssa/ssautil"
+	"github.com/kdy1/tools/internal/testenv"
+	"github.com/kdy1/tools/internal/typeparams/genericfeatures"
 )
 
 func bytesAllocated() uint64 {

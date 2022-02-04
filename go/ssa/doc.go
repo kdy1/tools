@@ -24,7 +24,7 @@
 // ssautil.Switches() for an example.
 //
 // The simplest way to create the SSA representation of a package is
-// to load typed syntax trees using golang.org/x/tools/go/packages, then
+// to load typed syntax trees using github.com/kdy1/tools/go/packages, then
 // invoke the ssautil.Packages helper function. See Example_loadPackages
 // and Example_loadWholeProgram for examples.
 // The resulting ssa.Program contains all the packages and their
@@ -123,4 +123,4 @@
 // domains of source locations, ast.Nodes, types.Objects,
 // ssa.Values/Instructions.
 //
-package ssa // import "golang.org/x/tools/go/ssa"
+package ssa // import "github.com/kdy1/tools/go/ssa"

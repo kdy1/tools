@@ -11,13 +11,13 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/imports"
-	"golang.org/x/tools/internal/lsp/progress"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/xcontext"
+	"github.com/kdy1/tools/internal/event"
+	"github.com/kdy1/tools/internal/gocommand"
+	"github.com/kdy1/tools/internal/imports"
+	"github.com/kdy1/tools/internal/lsp/progress"
+	"github.com/kdy1/tools/internal/lsp/source"
+	"github.com/kdy1/tools/internal/span"
+	"github.com/kdy1/tools/internal/xcontext"
 	errors "golang.org/x/xerrors"
 )
 

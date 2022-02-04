@@ -9,9 +9,9 @@ import (
 	"go/scanner"
 	"go/types"
 
+	"github.com/kdy1/tools/internal/lsp/source"
+	"github.com/kdy1/tools/internal/span"
 	"golang.org/x/mod/module"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
 	errors "golang.org/x/xerrors"
 )
 

@@ -9,8 +9,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/command/gen"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/kdy1/tools/internal/lsp/command/gen"
+	"github.com/kdy1/tools/internal/testenv"
 )
 
 func TestGenerated(t *testing.T) {

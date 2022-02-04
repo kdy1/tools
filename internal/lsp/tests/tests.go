@@ -24,24 +24,24 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/go/expect"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/go/packages/packagestest"
-	"golang.org/x/tools/internal/lsp/command"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/lsp/source/completion"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/testenv"
-	"golang.org/x/tools/internal/typeparams"
-	"golang.org/x/tools/txtar"
+	"github.com/kdy1/tools/go/expect"
+	"github.com/kdy1/tools/go/packages"
+	"github.com/kdy1/tools/go/packages/packagestest"
+	"github.com/kdy1/tools/internal/lsp/command"
+	"github.com/kdy1/tools/internal/lsp/protocol"
+	"github.com/kdy1/tools/internal/lsp/source"
+	"github.com/kdy1/tools/internal/lsp/source/completion"
+	"github.com/kdy1/tools/internal/span"
+	"github.com/kdy1/tools/internal/testenv"
+	"github.com/kdy1/tools/internal/typeparams"
+	"github.com/kdy1/tools/txtar"
 )
 
 const (
 	overlayFileSuffix = ".overlay"
 	goldenFileSuffix  = ".golden"
 	inFileSuffix      = ".in"
-	testModule        = "golang.org/x/tools/internal/lsp"
+	testModule        = "github.com/kdy1/tools/internal/lsp"
 )
 
 var summaryFile = "summary.txt"

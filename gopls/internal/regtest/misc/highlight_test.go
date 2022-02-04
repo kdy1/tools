@@ -8,9 +8,9 @@ import (
 	"sort"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/fake"
-	"golang.org/x/tools/internal/lsp/protocol"
-	. "golang.org/x/tools/internal/lsp/regtest"
+	"github.com/kdy1/tools/internal/lsp/fake"
+	"github.com/kdy1/tools/internal/lsp/protocol"
+	. "github.com/kdy1/tools/internal/lsp/regtest"
 )
 
 func TestWorkspacePackageHighlight(t *testing.T) {

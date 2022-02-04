@@ -5,9 +5,9 @@
 package debug
 
 import (
-	"golang.org/x/tools/internal/event/export/metric"
-	"golang.org/x/tools/internal/event/label"
-	"golang.org/x/tools/internal/lsp/debug/tag"
+	"github.com/kdy1/tools/internal/event/export/metric"
+	"github.com/kdy1/tools/internal/event/label"
+	"github.com/kdy1/tools/internal/lsp/debug/tag"
 )
 
 var (

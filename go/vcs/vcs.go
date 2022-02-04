@@ -12,14 +12,13 @@
 // It needs to be manually kept in sync with upstream when changes are
 // made to cmd/go/internal/get; see https://golang.org/issue/11490.
 //
-package vcs // import "golang.org/x/tools/go/vcs"
+package vcs // import "github.com/kdy1/tools/go/vcs"
 
 import (
 	"bytes"
 	"encoding/json"
 	"errors"
 	"fmt"
-	exec "golang.org/x/sys/execabs"
 	"log"
 	"net/url"
 	"os"
@@ -27,6 +26,8 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
+
+	exec "golang.org/x/sys/execabs"
 )
 
 // Verbose enables verbose operation logging.

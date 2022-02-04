@@ -21,14 +21,14 @@ import (
 	"strings"
 	"text/scanner"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/internal/checker"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/lsp/diff"
-	"golang.org/x/tools/internal/lsp/diff/myers"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/testenv"
-	"golang.org/x/tools/txtar"
+	"github.com/kdy1/tools/go/analysis"
+	"github.com/kdy1/tools/go/analysis/internal/checker"
+	"github.com/kdy1/tools/go/packages"
+	"github.com/kdy1/tools/internal/lsp/diff"
+	"github.com/kdy1/tools/internal/lsp/diff/myers"
+	"github.com/kdy1/tools/internal/span"
+	"github.com/kdy1/tools/internal/testenv"
+	"github.com/kdy1/tools/txtar"
 )
 
 // WriteFiles is a helper function that creates a temporary directory
@@ -245,7 +245,7 @@ func RunWithSuggestedFixes(t Testing, dir string, a *analysis.Analyzer, patterns
 // Run applies an analysis to the packages denoted by the "go list" patterns.
 //
 // It loads the packages from the specified GOPATH-style project
-// directory using golang.org/x/tools/go/packages, runs the analysis on
+// directory using github.com/kdy1/tools/go/packages, runs the analysis on
 // them, and checks that each analysis emits the expected diagnostics
 // and facts specified by the contents of '// want ...' comments in the
 // package's source files.

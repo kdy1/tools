@@ -9,8 +9,8 @@ import (
 	"encoding/json"
 	"sync"
 
-	"golang.org/x/tools/internal/event"
-	jsonrpc2_v2 "golang.org/x/tools/internal/jsonrpc2_v2"
+	"github.com/kdy1/tools/internal/event"
+	jsonrpc2_v2 "github.com/kdy1/tools/internal/jsonrpc2_v2"
 	"golang.org/x/xerrors"
 )
 

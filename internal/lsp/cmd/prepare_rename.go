@@ -9,9 +9,9 @@ import (
 	"flag"
 	"fmt"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/tool"
+	"github.com/kdy1/tools/internal/lsp/protocol"
+	"github.com/kdy1/tools/internal/span"
+	"github.com/kdy1/tools/internal/tool"
 	errors "golang.org/x/xerrors"
 )
 

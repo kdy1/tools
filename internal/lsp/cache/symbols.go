@@ -11,10 +11,10 @@ import (
 	"go/types"
 	"strings"
 
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/memoize"
-	"golang.org/x/tools/internal/span"
+	"github.com/kdy1/tools/internal/lsp/protocol"
+	"github.com/kdy1/tools/internal/lsp/source"
+	"github.com/kdy1/tools/internal/memoize"
+	"github.com/kdy1/tools/internal/span"
 )
 
 type symbolHandle struct {

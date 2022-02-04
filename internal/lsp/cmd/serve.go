@@ -13,13 +13,13 @@ import (
 	"os"
 	"time"
 
-	"golang.org/x/tools/internal/fakenet"
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/lsp/cache"
-	"golang.org/x/tools/internal/lsp/debug"
-	"golang.org/x/tools/internal/lsp/lsprpc"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/tool"
+	"github.com/kdy1/tools/internal/fakenet"
+	"github.com/kdy1/tools/internal/jsonrpc2"
+	"github.com/kdy1/tools/internal/lsp/cache"
+	"github.com/kdy1/tools/internal/lsp/debug"
+	"github.com/kdy1/tools/internal/lsp/lsprpc"
+	"github.com/kdy1/tools/internal/lsp/protocol"
+	"github.com/kdy1/tools/internal/tool"
 	errors "golang.org/x/xerrors"
 )
 

@@ -13,12 +13,12 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/kdy1/tools/internal/event"
+	"github.com/kdy1/tools/internal/lsp/source"
+	workfile "github.com/kdy1/tools/internal/mod/modfile"
+	"github.com/kdy1/tools/internal/span"
+	"github.com/kdy1/tools/internal/xcontext"
 	"golang.org/x/mod/modfile"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/source"
-	workfile "golang.org/x/tools/internal/mod/modfile"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/xcontext"
 	errors "golang.org/x/xerrors"
 )
 

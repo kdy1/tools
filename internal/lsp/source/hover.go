@@ -19,10 +19,10 @@ import (
 	"time"
 	"unicode/utf8"
 
+	"github.com/kdy1/tools/internal/event"
+	"github.com/kdy1/tools/internal/lsp/protocol"
+	"github.com/kdy1/tools/internal/typeparams"
 	"golang.org/x/text/unicode/runenames"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/typeparams"
 	errors "golang.org/x/xerrors"
 )
 

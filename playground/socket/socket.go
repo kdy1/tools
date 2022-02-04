@@ -12,7 +12,7 @@
 // The wire format is JSON and is described by the Message type.
 //
 // This will not run on App Engine as WebSockets are not supported there.
-package socket // import "golang.org/x/tools/playground/socket"
+package socket // import "github.com/kdy1/tools/playground/socket"
 
 import (
 	"bytes"
@@ -20,7 +20,6 @@ import (
 	"errors"
 	"go/parser"
 	"go/token"
-	exec "golang.org/x/sys/execabs"
 	"io"
 	"io/ioutil"
 	"log"
@@ -34,8 +33,10 @@ import (
 	"time"
 	"unicode/utf8"
 
+	exec "golang.org/x/sys/execabs"
+
+	"github.com/kdy1/tools/txtar"
 	"golang.org/x/net/websocket"
-	"golang.org/x/tools/txtar"
 )
 
 // RunScripts specifies whether the socket handler should execute shell scripts

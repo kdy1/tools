@@ -7,10 +7,10 @@ package misc
 import (
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/command"
-	"golang.org/x/tools/internal/lsp/protocol"
-	. "golang.org/x/tools/internal/lsp/regtest"
-	"golang.org/x/tools/internal/lsp/tests"
+	"github.com/kdy1/tools/internal/lsp/command"
+	"github.com/kdy1/tools/internal/lsp/protocol"
+	. "github.com/kdy1/tools/internal/lsp/regtest"
+	"github.com/kdy1/tools/internal/lsp/tests"
 )
 
 func TestAddImport(t *testing.T) {

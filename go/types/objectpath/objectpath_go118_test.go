@@ -11,9 +11,9 @@ import (
 	"go/types"
 	"testing"
 
-	"golang.org/x/tools/go/buildutil"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/types/objectpath"
+	"github.com/kdy1/tools/go/buildutil"
+	"github.com/kdy1/tools/go/loader"
+	"github.com/kdy1/tools/go/types/objectpath"
 )
 
 func TestGenericPaths(t *testing.T) {

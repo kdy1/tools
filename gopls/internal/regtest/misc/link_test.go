@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	. "golang.org/x/tools/internal/lsp/regtest"
+	. "github.com/kdy1/tools/internal/lsp/regtest"
 
-	"golang.org/x/tools/internal/testenv"
+	"github.com/kdy1/tools/internal/testenv"
 )
 
 func TestHoverAndDocumentLink(t *testing.T) {

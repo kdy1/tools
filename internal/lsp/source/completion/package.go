@@ -17,11 +17,11 @@ import (
 	"strings"
 	"unicode"
 
-	"golang.org/x/tools/internal/lsp/debug"
-	"golang.org/x/tools/internal/lsp/fuzzy"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
+	"github.com/kdy1/tools/internal/lsp/debug"
+	"github.com/kdy1/tools/internal/lsp/fuzzy"
+	"github.com/kdy1/tools/internal/lsp/protocol"
+	"github.com/kdy1/tools/internal/lsp/source"
+	"github.com/kdy1/tools/internal/span"
 	errors "golang.org/x/xerrors"
 )
 

@@ -16,13 +16,13 @@ import (
 	"strings"
 	"unicode"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/go/ast/inspector"
-	"golang.org/x/tools/internal/analysisinternal"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/kdy1/tools/go/analysis"
+	"github.com/kdy1/tools/go/analysis/passes/inspect"
+	"github.com/kdy1/tools/go/ast/astutil"
+	"github.com/kdy1/tools/go/ast/inspector"
+	"github.com/kdy1/tools/internal/analysisinternal"
+	"github.com/kdy1/tools/internal/span"
+	"github.com/kdy1/tools/internal/typeparams"
 )
 
 const Doc = `note incomplete struct initializations

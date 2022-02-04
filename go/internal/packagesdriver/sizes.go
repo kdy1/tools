@@ -11,7 +11,7 @@ import (
 	"go/types"
 	"strings"
 
-	"golang.org/x/tools/internal/gocommand"
+	"github.com/kdy1/tools/internal/gocommand"
 )
 
 var debug = false

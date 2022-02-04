@@ -9,9 +9,9 @@ import (
 	"path"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/command"
-	"golang.org/x/tools/internal/lsp/fake"
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/kdy1/tools/internal/lsp/command"
+	"github.com/kdy1/tools/internal/lsp/fake"
+	"github.com/kdy1/tools/internal/lsp/protocol"
 )
 
 func (e *Env) ChangeFilesOnDisk(events []fake.FileEvent) {

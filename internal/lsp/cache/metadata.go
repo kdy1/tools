@@ -7,9 +7,9 @@ package cache
 import (
 	"go/types"
 
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/packagesinternal"
-	"golang.org/x/tools/internal/span"
+	"github.com/kdy1/tools/go/packages"
+	"github.com/kdy1/tools/internal/packagesinternal"
+	"github.com/kdy1/tools/internal/span"
 )
 
 // Declare explicit types for package paths, names, and IDs to ensure that we
@@ -42,7 +42,7 @@ type Metadata struct {
 
 	// IsIntermediateTestVariant reports whether the given package is an
 	// intermediate test variant, e.g.
-	// "golang.org/x/tools/internal/lsp/cache [golang.org/x/tools/internal/lsp/source.test]".
+	// "github.com/kdy1/tools/internal/lsp/cache [github.com/kdy1/tools/internal/lsp/source.test]".
 	IsIntermediateTestVariant bool
 }
 

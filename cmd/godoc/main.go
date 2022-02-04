@@ -39,13 +39,13 @@ import (
 
 	exec "golang.org/x/sys/execabs"
 
-	"golang.org/x/tools/godoc"
-	"golang.org/x/tools/godoc/static"
-	"golang.org/x/tools/godoc/vfs"
-	"golang.org/x/tools/godoc/vfs/gatefs"
-	"golang.org/x/tools/godoc/vfs/mapfs"
-	"golang.org/x/tools/godoc/vfs/zipfs"
-	"golang.org/x/tools/internal/gocommand"
+	"github.com/kdy1/tools/godoc"
+	"github.com/kdy1/tools/godoc/static"
+	"github.com/kdy1/tools/godoc/vfs"
+	"github.com/kdy1/tools/godoc/vfs/gatefs"
+	"github.com/kdy1/tools/godoc/vfs/mapfs"
+	"github.com/kdy1/tools/godoc/vfs/zipfs"
+	"github.com/kdy1/tools/internal/gocommand"
 	"golang.org/x/xerrors"
 )
 

@@ -15,16 +15,16 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/kdy1/tools/internal/event"
+	"github.com/kdy1/tools/internal/gocommand"
+	"github.com/kdy1/tools/internal/lsp/command"
+	"github.com/kdy1/tools/internal/lsp/debug/tag"
+	"github.com/kdy1/tools/internal/lsp/diff"
+	"github.com/kdy1/tools/internal/lsp/protocol"
+	"github.com/kdy1/tools/internal/lsp/source"
+	"github.com/kdy1/tools/internal/memoize"
+	"github.com/kdy1/tools/internal/span"
 	"golang.org/x/mod/modfile"
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/lsp/command"
-	"golang.org/x/tools/internal/lsp/debug/tag"
-	"golang.org/x/tools/internal/lsp/diff"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/memoize"
-	"golang.org/x/tools/internal/span"
 )
 
 type modTidyKey struct {
@@ -254,10 +254,10 @@ func modTidyDiagnostics(ctx context.Context, snapshot source.Snapshot, pm *sourc
 			// Example:
 			//
 			// import (
-			//   "golang.org/x/tools/go/expect"
-			//   "golang.org/x/tools/go/packages"
+			//   "github.com/kdy1/tools/go/expect"
+			//   "github.com/kdy1/tools/go/packages"
 			// )
-			// They both are related to the same module: "golang.org/x/tools".
+			// They both are related to the same module: "github.com/kdy1/tools".
 			var match string
 			for _, req := range ideal.Require {
 				if strings.HasPrefix(imp, req.Mod.Path) && len(req.Mod.Path) > len(match) {

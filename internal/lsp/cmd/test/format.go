@@ -6,15 +6,16 @@ package cmdtest
 
 import (
 	"bytes"
-	exec "golang.org/x/sys/execabs"
 	"io/ioutil"
 	"os"
 	"regexp"
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/testenv"
+	exec "golang.org/x/sys/execabs"
+
+	"github.com/kdy1/tools/internal/span"
+	"github.com/kdy1/tools/internal/testenv"
 )
 
 func (r *runner) Format(t *testing.T, spn span.Span) {

@@ -11,11 +11,11 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/internal/lsp/analysis/fillstruct"
-	"golang.org/x/tools/internal/lsp/analysis/undeclaredname"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
+	"github.com/kdy1/tools/go/analysis"
+	"github.com/kdy1/tools/internal/lsp/analysis/fillstruct"
+	"github.com/kdy1/tools/internal/lsp/analysis/undeclaredname"
+	"github.com/kdy1/tools/internal/lsp/protocol"
+	"github.com/kdy1/tools/internal/span"
 	errors "golang.org/x/xerrors"
 )
 

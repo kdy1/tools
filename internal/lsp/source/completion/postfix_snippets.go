@@ -16,11 +16,11 @@ import (
 	"sync"
 	"text/template"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/imports"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/snippet"
-	"golang.org/x/tools/internal/lsp/source"
+	"github.com/kdy1/tools/internal/event"
+	"github.com/kdy1/tools/internal/imports"
+	"github.com/kdy1/tools/internal/lsp/protocol"
+	"github.com/kdy1/tools/internal/lsp/snippet"
+	"github.com/kdy1/tools/internal/lsp/source"
 	errors "golang.org/x/xerrors"
 )
 

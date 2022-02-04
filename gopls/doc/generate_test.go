@@ -10,7 +10,7 @@ package main
 import (
 	"testing"
 
-	"golang.org/x/tools/internal/testenv"
+	"github.com/kdy1/tools/internal/testenv"
 )
 
 func TestGenerated(t *testing.T) {

@@ -6,8 +6,8 @@
 package main
 
 import (
-	"golang.org/x/tools/go/analysis/passes/ifaceassert"
-	"golang.org/x/tools/go/analysis/singlechecker"
+	"github.com/kdy1/tools/go/analysis/passes/ifaceassert"
+	"github.com/kdy1/tools/go/analysis/singlechecker"
 )
 
 func main() { singlechecker.Main(ifaceassert.Analyzer) }

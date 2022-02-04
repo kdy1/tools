@@ -22,10 +22,10 @@ import (
 	"sync"
 	"unicode"
 
+	"github.com/kdy1/tools/go/internal/packagesdriver"
+	"github.com/kdy1/tools/internal/gocommand"
+	"github.com/kdy1/tools/internal/packagesinternal"
 	exec "golang.org/x/sys/execabs"
-	"golang.org/x/tools/go/internal/packagesdriver"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/packagesinternal"
 	"golang.org/x/xerrors"
 )
 

@@ -7,8 +7,8 @@ package vta
 import (
 	"go/types"
 
-	"golang.org/x/tools/go/callgraph"
-	"golang.org/x/tools/go/ssa"
+	"github.com/kdy1/tools/go/callgraph"
+	"github.com/kdy1/tools/go/ssa"
 )
 
 func canAlias(n1, n2 node) bool {

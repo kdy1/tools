@@ -7,7 +7,7 @@
 //
 // To run:
 //
-// $ cd $GOPATH/src/golang.org/x/tools/gopls
+// $ cd $GOPATH/src/github.com/kdy1/tools/gopls
 // $ go run release/release.go -version=<version>
 package main
 
@@ -15,7 +15,6 @@ import (
 	"flag"
 	"fmt"
 	"go/types"
-	exec "golang.org/x/sys/execabs"
 	"io/ioutil"
 	"log"
 	"os"
@@ -24,9 +23,11 @@ import (
 	"strconv"
 	"strings"
 
+	exec "golang.org/x/sys/execabs"
+
+	"github.com/kdy1/tools/go/packages"
 	"golang.org/x/mod/modfile"
 	"golang.org/x/mod/semver"
-	"golang.org/x/tools/go/packages"
 )
 
 var (
@@ -135,7 +136,7 @@ func validateHardcodedVersion(wd string, version string) error {
 		Mode: packages.NeedName | packages.NeedFiles |
 			packages.NeedCompiledGoFiles | packages.NeedImports |
 			packages.NeedTypes | packages.NeedTypesSizes,
-	}, "golang.org/x/tools/internal/lsp/debug")
+	}, "github.com/kdy1/tools/internal/lsp/debug")
 	if err != nil {
 		return err
 	}
@@ -187,16 +188,16 @@ func validateGoModFile(wd string) error {
 		return err
 	}
 	hash := string(stdout)
-	// Find the golang.org/x/tools require line and compare the versions.
+	// Find the github.com/kdy1/tools require line and compare the versions.
 	var version string
 	for _, req := range gomod.Require {
-		if req.Mod.Path == "golang.org/x/tools" {
+		if req.Mod.Path == "github.com/kdy1/tools" {
 			version = req.Mod.Version
 			break
 		}
 	}
 	if version == "" {
-		return fmt.Errorf("no require for golang.org/x/tools")
+		return fmt.Errorf("no require for github.com/kdy1/tools")
 	}
 	split := strings.Split(version, "-")
 	if len(split) != 3 {
@@ -207,7 +208,7 @@ func validateGoModFile(wd string) error {
 		return fmt.Errorf("unexpected pseudoversion format %s", version)
 	}
 	if !strings.HasPrefix(hash, last) {
-		return fmt.Errorf("golang.org/x/tools pseudoversion should be at commit %s, instead got %s", hash, last)
+		return fmt.Errorf("github.com/kdy1/tools pseudoversion should be at commit %s, instead got %s", hash, last)
 	}
 	return nil
 }

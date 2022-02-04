@@ -7,9 +7,9 @@ package simplifyslice_test
 import (
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/internal/lsp/analysis/simplifyslice"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/kdy1/tools/go/analysis/analysistest"
+	"github.com/kdy1/tools/internal/lsp/analysis/simplifyslice"
+	"github.com/kdy1/tools/internal/typeparams"
 )
 
 func Test(t *testing.T) {

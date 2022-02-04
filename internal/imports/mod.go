@@ -18,9 +18,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/kdy1/tools/internal/gocommand"
+	"github.com/kdy1/tools/internal/gopathwalk"
 	"golang.org/x/mod/module"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/gopathwalk"
 )
 
 // ModuleResolver implements resolver for modules using the go command as little

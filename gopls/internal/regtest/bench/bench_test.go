@@ -11,11 +11,11 @@ import (
 	"runtime/pprof"
 	"testing"
 
-	"golang.org/x/tools/gopls/internal/hooks"
-	"golang.org/x/tools/internal/lsp/fake"
-	. "golang.org/x/tools/internal/lsp/regtest"
+	"github.com/kdy1/tools/gopls/internal/hooks"
+	"github.com/kdy1/tools/internal/lsp/fake"
+	. "github.com/kdy1/tools/internal/lsp/regtest"
 
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/kdy1/tools/internal/lsp/protocol"
 )
 
 func TestMain(m *testing.M) {

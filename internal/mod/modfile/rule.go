@@ -27,9 +27,9 @@ import (
 	"strings"
 	"unicode"
 
+	"github.com/kdy1/tools/internal/mod/lazyregexp"
 	"golang.org/x/mod/modfile"
 	"golang.org/x/mod/module"
-	"golang.org/x/tools/internal/mod/lazyregexp"
 )
 
 // A WorkFile is the parsed, interpreted form of a go.work file.

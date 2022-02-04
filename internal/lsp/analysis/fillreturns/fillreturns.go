@@ -16,10 +16,10 @@ import (
 	"regexp"
 	"strings"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/internal/analysisinternal"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/kdy1/tools/go/analysis"
+	"github.com/kdy1/tools/go/ast/astutil"
+	"github.com/kdy1/tools/internal/analysisinternal"
+	"github.com/kdy1/tools/internal/typeparams"
 )
 
 const Doc = `suggest fixes for errors due to an incorrect number of return values

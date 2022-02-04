@@ -121,13 +121,12 @@
 // contain the substring ``devel''. The VERSION file must be created before
 // building either version of the toolchain.
 //
-package main // import "golang.org/x/tools/cmd/toolstash"
+package main // import "github.com/kdy1/tools/cmd/toolstash"
 
 import (
 	"bufio"
 	"flag"
 	"fmt"
-	exec "golang.org/x/sys/execabs"
 	"io"
 	"io/ioutil"
 	"log"
@@ -136,6 +135,8 @@ import (
 	"runtime"
 	"strings"
 	"time"
+
+	exec "golang.org/x/sys/execabs"
 )
 
 var usageMessage = `usage: toolstash [-n] [-v] [-cmp] command line
@@ -147,7 +148,7 @@ Examples:
 	toolstash compile x.go
 	toolstash -cmp compile x.go
 
-For details, godoc golang.org/x/tools/cmd/toolstash
+For details, godoc github.com/kdy1/tools/cmd/toolstash
 `
 
 func usage() {

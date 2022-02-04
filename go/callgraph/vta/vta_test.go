@@ -7,12 +7,12 @@ package vta
 import (
 	"testing"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/go/analysis/passes/buildssa"
-	"golang.org/x/tools/go/callgraph/cha"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/ssautil"
+	"github.com/kdy1/tools/go/analysis"
+	"github.com/kdy1/tools/go/analysis/analysistest"
+	"github.com/kdy1/tools/go/analysis/passes/buildssa"
+	"github.com/kdy1/tools/go/callgraph/cha"
+	"github.com/kdy1/tools/go/ssa"
+	"github.com/kdy1/tools/go/ssa/ssautil"
 )
 
 func TestVTACallGraph(t *testing.T) {

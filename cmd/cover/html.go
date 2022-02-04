@@ -8,7 +8,6 @@ import (
 	"bufio"
 	"bytes"
 	"fmt"
-	exec "golang.org/x/sys/execabs"
 	"html/template"
 	"io"
 	"io/ioutil"
@@ -17,7 +16,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"golang.org/x/tools/cover"
+	exec "golang.org/x/sys/execabs"
+
+	"github.com/kdy1/tools/cover"
 )
 
 // htmlOutput reads the profile data from profile and generates an HTML

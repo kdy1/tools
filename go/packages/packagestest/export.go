@@ -78,10 +78,10 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/expect"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/kdy1/tools/go/expect"
+	"github.com/kdy1/tools/go/packages"
+	"github.com/kdy1/tools/internal/span"
+	"github.com/kdy1/tools/internal/testenv"
 	"golang.org/x/xerrors"
 )
 

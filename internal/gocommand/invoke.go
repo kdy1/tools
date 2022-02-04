@@ -9,7 +9,6 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	exec "golang.org/x/sys/execabs"
 	"io"
 	"os"
 	"regexp"
@@ -18,7 +17,9 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/tools/internal/event"
+	exec "golang.org/x/sys/execabs"
+
+	"github.com/kdy1/tools/internal/event"
 )
 
 // An Runner will run go command invocations and serialize

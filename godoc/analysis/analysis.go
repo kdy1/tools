@@ -40,7 +40,7 @@
 // location is highlighted in red and hover text provides the compiler
 // error message.
 //
-package analysis // import "golang.org/x/tools/godoc/analysis"
+package analysis // import "github.com/kdy1/tools/godoc/analysis"
 
 import (
 	"io"

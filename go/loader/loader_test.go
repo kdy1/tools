@@ -23,9 +23,9 @@ import (
 	"sync"
 	"testing"
 
-	"golang.org/x/tools/go/buildutil"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/kdy1/tools/go/buildutil"
+	"github.com/kdy1/tools/go/loader"
+	"github.com/kdy1/tools/internal/testenv"
 )
 
 func TestMain(m *testing.M) {
@@ -837,7 +837,7 @@ func loadIO(t *testing.T) {
 
 func TestCgoCwdIssue46877(t *testing.T) {
 	var conf loader.Config
-	conf.Import("golang.org/x/tools/go/loader/testdata/issue46877")
+	conf.Import("github.com/kdy1/tools/go/loader/testdata/issue46877")
 	if _, err := conf.Load(); err != nil {
 		t.Errorf("Load failed: %v", err)
 	}

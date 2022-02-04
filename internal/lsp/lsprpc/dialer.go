@@ -12,8 +12,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/kdy1/tools/internal/event"
 	exec "golang.org/x/sys/execabs"
-	"golang.org/x/tools/internal/event"
 	errors "golang.org/x/xerrors"
 )
 

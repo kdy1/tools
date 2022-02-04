@@ -79,7 +79,6 @@ import (
 	"go/format"
 	"go/parser"
 	"go/token"
-	exec "golang.org/x/sys/execabs"
 	"io"
 	"io/ioutil"
 	"log"
@@ -89,6 +88,8 @@ import (
 	"sort"
 	"strconv"
 	"strings"
+
+	exec "golang.org/x/sys/execabs"
 )
 
 // flags
@@ -114,7 +115,7 @@ The package... arguments specify a list of packages
 in the style of the go tool; see "go help packages".
 Hint: use "all" or "..." to match the entire workspace.
 
-For details, see https://pkg.go.dev/golang.org/x/tools/cmd/fiximports
+For details, see https://pkg.go.dev/github.com/kdy1/tools/cmd/fiximports
 
 Flags:
   -n:	       dry run: show changes, but don't apply them

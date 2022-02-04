@@ -23,11 +23,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/go/buildutil"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/pointer"
-	"golang.org/x/tools/go/ssa"
+	"github.com/kdy1/tools/go/ast/astutil"
+	"github.com/kdy1/tools/go/buildutil"
+	"github.com/kdy1/tools/go/loader"
+	"github.com/kdy1/tools/go/pointer"
+	"github.com/kdy1/tools/go/ssa"
 )
 
 type printfFunc func(pos interface{}, format string, args ...interface{})

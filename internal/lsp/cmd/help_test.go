@@ -12,9 +12,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/cmd"
-	"golang.org/x/tools/internal/testenv"
-	"golang.org/x/tools/internal/tool"
+	"github.com/kdy1/tools/internal/lsp/cmd"
+	"github.com/kdy1/tools/internal/testenv"
+	"github.com/kdy1/tools/internal/tool"
 )
 
 var updateHelpFiles = flag.Bool("update-help-files", false, "Write out the help files instead of checking them")

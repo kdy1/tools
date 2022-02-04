@@ -13,9 +13,9 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/internal/event/export/eventtest"
-	jsonrpc2 "golang.org/x/tools/internal/jsonrpc2_v2"
-	"golang.org/x/tools/internal/stack/stacktest"
+	"github.com/kdy1/tools/internal/event/export/eventtest"
+	jsonrpc2 "github.com/kdy1/tools/internal/jsonrpc2_v2"
+	"github.com/kdy1/tools/internal/stack/stacktest"
 	errors "golang.org/x/xerrors"
 )
 

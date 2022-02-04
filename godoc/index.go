@@ -62,8 +62,8 @@ import (
 	"time"
 	"unicode"
 
-	"golang.org/x/tools/godoc/util"
-	"golang.org/x/tools/godoc/vfs"
+	"github.com/kdy1/tools/godoc/util"
+	"github.com/kdy1/tools/godoc/vfs"
 )
 
 // ----------------------------------------------------------------------------

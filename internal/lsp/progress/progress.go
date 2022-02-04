@@ -11,10 +11,10 @@ import (
 	"strings"
 	"sync"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/debug/tag"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/xcontext"
+	"github.com/kdy1/tools/internal/event"
+	"github.com/kdy1/tools/internal/lsp/debug/tag"
+	"github.com/kdy1/tools/internal/lsp/protocol"
+	"github.com/kdy1/tools/internal/xcontext"
 	errors "golang.org/x/xerrors"
 )
 

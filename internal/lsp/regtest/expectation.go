@@ -9,10 +9,10 @@ import (
 	"regexp"
 	"strings"
 
-	"golang.org/x/tools/internal/lsp"
-	"golang.org/x/tools/internal/lsp/fake"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/testenv"
+	"github.com/kdy1/tools/internal/lsp"
+	"github.com/kdy1/tools/internal/lsp/fake"
+	"github.com/kdy1/tools/internal/lsp/protocol"
+	"github.com/kdy1/tools/internal/testenv"
 )
 
 // An Expectation asserts that the state of the editor at a point in time

@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/internal/gcimporter"
+	"github.com/kdy1/tools/go/internal/gcimporter"
 )
 
 // TODO(rfindley): migrate this to testdata, as has been done in the standard library.

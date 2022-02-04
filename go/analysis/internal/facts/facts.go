@@ -47,8 +47,8 @@ import (
 	"sort"
 	"sync"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/types/objectpath"
+	"github.com/kdy1/tools/go/analysis"
+	"github.com/kdy1/tools/go/types/objectpath"
 )
 
 const debug = false

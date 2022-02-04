@@ -5,11 +5,12 @@
 package loopclosure_test
 
 import (
-	"golang.org/x/tools/internal/typeparams"
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/go/analysis/passes/loopclosure"
+	"github.com/kdy1/tools/internal/typeparams"
+
+	"github.com/kdy1/tools/go/analysis/analysistest"
+	"github.com/kdy1/tools/go/analysis/passes/loopclosure"
 )
 
 func Test(t *testing.T) {

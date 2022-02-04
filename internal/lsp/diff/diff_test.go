@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"testing"
 
-	"golang.org/x/tools/internal/lsp/diff"
-	"golang.org/x/tools/internal/lsp/diff/difftest"
-	"golang.org/x/tools/internal/span"
+	"github.com/kdy1/tools/internal/lsp/diff"
+	"github.com/kdy1/tools/internal/lsp/diff/difftest"
+	"github.com/kdy1/tools/internal/span"
 )
 
 func TestApplyEdits(t *testing.T) {

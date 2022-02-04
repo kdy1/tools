@@ -10,9 +10,9 @@ import (
 	"context"
 	"fmt"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/event/label"
-	"golang.org/x/tools/internal/lsp/debug/tag"
+	"github.com/kdy1/tools/internal/event"
+	"github.com/kdy1/tools/internal/event/label"
+	"github.com/kdy1/tools/internal/lsp/debug/tag"
 )
 
 // Level parameterizes log severity.

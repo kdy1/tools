@@ -9,10 +9,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/gocommand"
-	jsonrpc2_v2 "golang.org/x/tools/internal/jsonrpc2_v2"
-	"golang.org/x/tools/internal/lsp/protocol"
+	"github.com/kdy1/tools/internal/event"
+	"github.com/kdy1/tools/internal/gocommand"
+	jsonrpc2_v2 "github.com/kdy1/tools/internal/jsonrpc2_v2"
+	"github.com/kdy1/tools/internal/lsp/protocol"
 )
 
 func GoEnvMiddleware() (Middleware, error) {

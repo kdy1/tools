@@ -7,7 +7,7 @@
 Command goimports updates your Go import lines,
 adding missing ones and removing unreferenced ones.
 
-     $ go install golang.org/x/tools/cmd/goimports@latest
+     $ go install github.com/kdy1/tools/cmd/goimports@latest
 
 In addition to fixing imports, goimports also formats
 your code in the same style as gofmt so it can be used
@@ -44,4 +44,4 @@ File bugs or feature requests at:
 Happy hacking!
 
 */
-package main // import "golang.org/x/tools/cmd/goimports"
+package main // import "github.com/kdy1/tools/cmd/goimports"

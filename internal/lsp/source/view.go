@@ -15,14 +15,14 @@ import (
 	"io"
 	"strings"
 
+	"github.com/kdy1/tools/go/analysis"
+	"github.com/kdy1/tools/internal/gocommand"
+	"github.com/kdy1/tools/internal/imports"
+	"github.com/kdy1/tools/internal/lsp/progress"
+	"github.com/kdy1/tools/internal/lsp/protocol"
+	"github.com/kdy1/tools/internal/span"
 	"golang.org/x/mod/modfile"
 	"golang.org/x/mod/module"
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/internal/gocommand"
-	"golang.org/x/tools/internal/imports"
-	"golang.org/x/tools/internal/lsp/progress"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/span"
 	errors "golang.org/x/xerrors"
 )
 

@@ -17,11 +17,11 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/tools/internal/event"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/lsp/template"
-	"golang.org/x/tools/internal/typeparams"
+	"github.com/kdy1/tools/internal/event"
+	"github.com/kdy1/tools/internal/lsp/protocol"
+	"github.com/kdy1/tools/internal/lsp/source"
+	"github.com/kdy1/tools/internal/lsp/template"
+	"github.com/kdy1/tools/internal/typeparams"
 	errors "golang.org/x/xerrors"
 )
 
